@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "walletAddress",
+						"type": "address"
+					}
+				],
+				"name": "WalletCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "createWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "getWallet",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "wallets",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WalletFactory.sol": "WalletFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SmartWallet.sol": {
+			"keccak256": "0xbe14d0a5194b9bbfa0863c80f9ec50578f6ded0297b46dd935af10e87f5f36f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://947e1ce1c4a328921572797e5a9b7c118dd3f34c8b8c560e3663778349350118",
+				"dweb:/ipfs/QmNpkgcrdXXcD4TCF5wQKCKfbeMJHZPxKSMGHVzx1BiYSa"
+			]
+		},
+		"WalletFactory.sol": {
+			"keccak256": "0xb5513c134d927c3bd0e2cddc733926b52bd8fe84126df4fd6352cff19077094a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ddb50756c62c21c545dca0667eeba1a29d8a7df181afc2f826d6e82c5d6dc187",
+				"dweb:/ipfs/QmbjzxNixvRkQiyNdAZ6NxdAnwkXwTUrsQLTnboF9AhBQq"
+			]
+		}
+	},
+	"version": 1
+}
